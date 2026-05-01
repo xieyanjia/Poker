@@ -463,7 +463,7 @@ namespace Poker
             string result = "";
             if (isRoyalisFlush)
             {
-                result = $"{colorList[0]} 同花大順";
+                result = $"{colorList[0]} 皇家同花順";
             }
             else if (isStraightFlush)
             {
@@ -475,7 +475,7 @@ namespace Poker
             }
             else if (isFourOfAKind)
             {
-                result = $"{pointList[0]} 鐵支";
+                result = $"{pointList[0]} 四條";
             }
             else if (isFullHouse)
             {
