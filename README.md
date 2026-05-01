@@ -72,6 +72,19 @@
 
 ---
 
+## 三、遊戲流程
+
+###輸入押注金額
+→ 按下「押注」
+→ 按下「發牌」
+→ 點選要更換的牌
+→ 按下「換牌」
+→ 按下「判斷牌型」
+→ 系統計算賠率與獎金
+→ 進入下一局
+
+---
+
 <img width="557" height="525" alt="image" src="https://github.com/user-attachments/assets/1b1f8229-2bb9-453a-86fd-a435795de831" />
 
 <img width="554" height="525" alt="image" src="https://github.com/user-attachments/assets/17acdd86-84b2-48a3-8a9d-f4a75824a196" />
