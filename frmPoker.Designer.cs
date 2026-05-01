@@ -46,7 +46,7 @@
             // 
             // grpPoker
             // 
-            this.grpPoker.BackColor = System.Drawing.SystemColors.Control;
+            this.grpPoker.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.grpPoker.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.grpPoker.Location = new System.Drawing.Point(36, 29);
             this.grpPoker.Name = "grpPoker";
@@ -57,6 +57,7 @@
             // 
             // grpButton
             // 
+            this.grpButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.grpButton.Controls.Add(this.btnChangeCard);
             this.grpButton.Controls.Add(this.lblResult);
             this.grpButton.Controls.Add(this.btnCheck);
@@ -112,6 +113,7 @@
             // 
             // grpBet
             // 
+            this.grpBet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.grpBet.Controls.Add(this.lblBetAmountResult);
             this.grpBet.Controls.Add(this.btnBet);
             this.grpBet.Controls.Add(this.lblTotalAmountResult);
@@ -175,6 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(554, 496);
             this.Controls.Add(this.grpBet);
             this.Controls.Add(this.grpButton);
